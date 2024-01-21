@@ -9,7 +9,7 @@
 
 
 
-public class holiday {
+public class sleepIn {
 
 public boolean sleepIn(boolean weekday, boolean vacation) {
     if (!weekday || vacation) {
@@ -19,7 +19,7 @@ public boolean sleepIn(boolean weekday, boolean vacation) {
 }
 
 public static void main(String[] args) {
-    holiday obj = new holiday();
+    sleepIn obj = new sleepIn();
     boolean result = obj.sleepIn(true, false);
     System.out.println("result " + result);
 }
