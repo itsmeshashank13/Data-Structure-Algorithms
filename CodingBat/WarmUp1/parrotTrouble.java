@@ -7,6 +7,16 @@
     parrotTrouble(false, 6) → false
  */
 
-public boolean parrotTrouble(boolean talking, int hour) {
-    return talking && (hour < 7 || hour > 20);
+public class parrotTrouble {
+    public boolean parrotTrouble(boolean talking, int hour) {
+        return talking && (hour < 7 || hour > 20);
+    }
+
+    public static void main(String[] args) {
+        parrotTrouble obj = new parrotTrouble();
+        boolean result = obj.parrotTrouble(true, 10);
+        System.out.println(result);
+    }
 }
+
+

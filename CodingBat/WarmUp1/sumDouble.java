@@ -7,12 +7,20 @@
     sumDouble(2, 2) → 8
  */
 
- public int sumDouble(int a, int b) {
+ public class sumDouble {
+  public int sumDouble(int a, int b) {
     int sum = a+b;
     
     if (a == b) {
       return sum = sum*2;
-    } else {
+    }  {
       return sum;
     }
 }
+
+  public static void main(String[] args) {
+    sumDouble obj = new sumDouble();
+    int result = obj.sumDouble(4, 5); 
+    System.out.println(result);
+  }
+ }

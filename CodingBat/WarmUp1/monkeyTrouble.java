@@ -7,9 +7,17 @@
     monkeyTrouble(true, false) → false
  */
 
- public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+public class monkeyTrouble {
+  public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
     if ((aSmile && bSmile) || (!aSmile && !bSmile)) {
       return true;
     }
     return false;
+  }
+
+  public static void main(String[] args) {
+    monkeyTrouble obj = new monkeyTrouble();
+    boolean result = obj.monkeyTrouble(false, false); 
+    System.out.println(result);
+  }
 }
