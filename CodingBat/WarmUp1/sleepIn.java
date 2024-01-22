@@ -18,9 +18,9 @@ public boolean sleepIn(boolean weekday, boolean vacation) {
     return false;
 }
 
-public static void main(String[] args) {
-    sleepIn obj = new sleepIn();
-    boolean result = obj.sleepIn(true, false);
-    System.out.println("result " + result);
-}
+    public static void main(String[] args) {
+        sleepIn obj = new sleepIn();
+        boolean result = obj.sleepIn(true, false);
+        System.out.println("result " + result);
+    }
 }
