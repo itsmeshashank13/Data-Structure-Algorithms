@@ -1,2 +1,2 @@
 # Data-Structure-Algorithms
-Solving DSA problems daily from CodingBat &amp; LeetCode
+Solving DSA problems from CodingBat &amp; LeetCode
